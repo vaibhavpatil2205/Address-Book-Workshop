@@ -2,9 +2,7 @@ package com.addressbook;
 
 public class PersonInfo {
 
-	
-		
-	    public int id;
+	    
 	    public String first_name;
 	    public String last_name;
 	    public String address;
@@ -29,10 +27,10 @@ public class PersonInfo {
 	        this.email = email;
 	    }
 
-	    public PersonInfo(int id,String first_name, String last_name, String address, String city, String state, int zip,
+	    public PersonInfo(String first_name, String last_name, String address, String city, String state, int zip,
 	                                                                                String phone_number, String email) {
 	        this(first_name, last_name, address, city, state, zip, phone_number, email);
-	        this.id = id;
+	        
 	    }
 	    public String getFirst_name() {
 	        return first_name;
@@ -97,7 +95,6 @@ public class PersonInfo {
 	    public void setEmail(String email) {
 	        this.email = email;
 	    }
-
 	    
 	    }
 	
